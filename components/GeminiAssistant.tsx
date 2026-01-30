@@ -6,7 +6,7 @@ import { ChatMessage } from '../types';
 const GeminiAssistant: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState<ChatMessage[]>([
-    { role: 'assistant', content: "I am The Muse. Drew's creative frequency is currently high. How can I help you visualize your next breakthrough?" }
+    { role: 'assistant', content: "I am The Oyin. Drew's Art creative frequency is currently high. How can I help you visualize your next breakthrough?" }
   ]);
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
