@@ -1,6 +1,7 @@
 
 import React, { useEffect, useState } from 'react';
 
+
 interface AboutProps {
   isDarkMode?: boolean;
 }
@@ -32,11 +33,12 @@ const About: React.FC<AboutProps> = ({ isDarkMode = true }) => {
             
             <div className={`relative z-10 rounded-[3rem] p-4 p-8 overflow-hidden transform group-hover:rotate-2 transition-transform duration-700 shadow-2xl ${isDarkMode ? 'glass' : 'bg-white border border-black/5'}`}>
               <div className="aspect-[4/5] overflow-hidden rounded-[2.5rem] relative">
-                <img 
-                  src="src/components/IMG_5993" 
-                  alt="Andrew - Creative Artist" 
+                <img
+                  src="/image/IMG_5993.jpg"
+                  alt="Andrew - Creative Artist"
                   className="w-full h-full object-cover transition-transform duration-[2s] group-hover:scale-110"
                 />
+
                 <div className="absolute inset-0 bg-gradient-to-tr from-pink-500/10 to-transparent pointer-events-none"></div>
                 <div className={`absolute bottom-6 left-6 right-6 p-6 rounded-2xl border transition-colors ${isDarkMode ? 'glass border-white/20' : 'bg-white/90 border-black/10'}`}>
                   <p className={`text-xs tracking-widest uppercase font-bold ${isDarkMode ? 'text-white/80' : 'text-gray-600'}`}>Founder / Lead Visionary</p>
