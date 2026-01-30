@@ -1,12 +1,12 @@
 
 import React, { useState, useEffect } from 'react';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import ProjectGrid from './components/ProjectGrid';
-import About from './components/About';
-import Reviews from './components/Reviews';
-import Contact from './components/Contact';
-import GeminiAssistant from './components/GeminiAssistant';
+import Navbar from '../components/Navbar';
+import Hero from '../components/Hero';
+import ProjectGrid from '../components/ProjectGrid';
+import About from '../components/About';
+import Reviews from '../components/Reviews';
+import Contact from '../components/Contact';
+import GeminiAssistant from '../components/GeminiAssistant';
 
 const App: React.FC = () => {
   const [scrolled, setScrolled] = useState(false);
