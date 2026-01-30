@@ -1,7 +1,9 @@
-
 import { GoogleGenAI } from "@google/genai";
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+// Standard initialization as per guidelines
+const ai = new GoogleGenAI({ 
+  apiKey: process.env.API_KEY || "" 
+});
 
 export const generateCreativeInsight = async (prompt: string): Promise<string> => {
   try {
