@@ -1,5 +1,6 @@
 
 import React, { useEffect, useState } from 'react';
+import IMG_5993 from "../src/image/IMG_5993.jpeg";
 
 
 interface AboutProps {
@@ -34,7 +35,7 @@ const About: React.FC<AboutProps> = ({ isDarkMode = true }) => {
             <div className={`relative z-10 rounded-[3rem] p-4 p-8 overflow-hidden transform group-hover:rotate-2 transition-transform duration-700 shadow-2xl ${isDarkMode ? 'glass' : 'bg-white border border-black/5'}`}>
               <div className="aspect-[4/5] overflow-hidden rounded-[2.5rem] relative">
                 <img
-                  src="/image/IMG_5993.jpeg"
+                  src={IMG_5993}
                   alt="Andrew - Creative Artist"
                   className="w-full h-full object-cover transition-transform duration-[2s] group-hover:scale-110"
                 />
