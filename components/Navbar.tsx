@@ -20,7 +20,7 @@ const Navbar: React.FC<NavbarProps> = ({ scrolled, isDarkMode, toggleTheme }) =>
       <div className={`max-w-7xl mx-auto flex justify-between items-center transition-all duration-700 ${scrolled ? (isDarkMode ? 'glass bg-black/40 border-white/10' : 'glass bg-white/60 border-black/5') + ' px-10 py-4 rounded-full shadow-2xl' : ''}`}>
         <div className="group cursor-pointer" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
           <div className="text-2xl font-artistic font-bold tracking-tight flex items-center gap-1 group-hover:scale-110 transition-transform">
-            <span className="text-pink-500">D</span>rew's
+            <span className="text-pink-500"></span>Drew's
             <span className="px-2 py-1 bg-gradient-to-br from-pink-500 to-blue-600 rounded-lg text-[10px] font-sans uppercase tracking-[0.3em] ml-1 text-white">Art</span>
           </div>
         </div>

@@ -48,7 +48,7 @@ const GeminiAssistant: React.FC = () => {
         <div className="absolute bottom-24 right-0 w-[350px] md:w-[450px] h-[600px] bg-black/80 backdrop-blur-2xl border border-white/10 rounded-[2.5rem] overflow-hidden shadow-3xl flex flex-col animate-in fade-in slide-in-from-bottom-10 duration-500 border-pink-500/20">
           <div className="p-8 border-b border-white/5 bg-gradient-to-br from-pink-900/40 via-purple-900/20 to-transparent">
             <h3 className="font-artistic font-bold text-2xl flex items-center gap-3">
-              <span className="text-pink-500 animate-pulse">✧</span> The Muse
+              <span className="text-pink-500 animate-pulse">✧</span> Drew
             </h3>
             <div className="flex items-center gap-2 mt-2">
               <span className="w-1.5 h-1.5 bg-green-500 rounded-full animate-pulse"></span>

@@ -43,7 +43,7 @@ const About: React.FC<AboutProps> = ({ isDarkMode = true }) => {
                 <div className="absolute inset-0 bg-gradient-to-tr from-pink-500/10 to-transparent pointer-events-none"></div>
                 <div className={`absolute bottom-6 left-6 right-6 p-6 rounded-2xl border transition-colors ${isDarkMode ? 'glass border-white/20' : 'bg-white/90 border-black/10'}`}>
                   <p className={`text-xs tracking-widest uppercase font-bold ${isDarkMode ? 'text-white/80' : 'text-gray-600'}`}>Founder / Lead Visionary</p>
-                  <h4 className={`text-2xl font-artistic font-bold mt-1 ${isDarkMode ? 'text-white' : 'text-black'}`}>Drew</h4>
+                  <h4 className={`text-2xl font-artistic font-bold mt-1 ${isDarkMode ? 'text-white' : 'text-black'}`}>Andrew</h4>
                 </div>
               </div>
             </div>
@@ -61,7 +61,8 @@ const About: React.FC<AboutProps> = ({ isDarkMode = true }) => {
 
             <div className={`p-10 rounded-[2.5rem] space-y-6 transition-all ${isDarkMode ? 'glass-card' : 'bg-white border border-black/5 shadow-xl'}`}>
               <p className={`text-lg md:text-xl leading-relaxed font-light transition-colors ${isDarkMode ? 'text-white/70' : 'text-gray-700'}`}>
-                Hello, I'm Drew! My journey began at the intersection of traditional painting and modern software. I believe that every digital experience should feel like a living work of art.
+                Hello, I am Andre — a Graphic Designer & Computer Science graduate based in Nigeria. My creative journey lives at the intersection of visual storytelling and technology. With a background in traditional design and modern digital tools, I create designs that are not only visually striking but purposeful and user-focused.
+                I specialize in transforming ideas into clear, engaging visual experiences. From branding and layout design to motion and multimedia, I combine creativity with technical thinking to help brands communicate effectively and leave a lasting impression.
               </p>
               <p className={`text-lg md:text-xl leading-relaxed font-light transition-colors ${isDarkMode ? 'text-white/70' : 'text-gray-700'}`}>
                 I don't just design interfaces; I craft emotional landscapes. By blending high-performance code with intuitive motion design, I help brands leave an indelible mark on their audience.
@@ -71,15 +72,15 @@ const About: React.FC<AboutProps> = ({ isDarkMode = true }) => {
             <div className="flex flex-wrap gap-6">
               <div className={`flex items-center gap-3 px-6 py-3 rounded-full transition-all border ${isDarkMode ? 'bg-white/5 border-white/10 hover:bg-white/10' : 'bg-black/5 border-black/5 hover:bg-black/10'}`}>
                 <span className="text-pink-500">✦</span>
-                <span className={`text-xs uppercase tracking-widest font-bold ${isDarkMode ? 'text-white' : 'text-black'}`}>Concept Artist</span>
+                <span className={`text-xs uppercase tracking-widest font-bold ${isDarkMode ? 'text-white' : 'text-black'}`}>Graphic Designer</span>
               </div>
               <div className={`flex items-center gap-3 px-6 py-3 rounded-full transition-all border ${isDarkMode ? 'bg-white/5 border-white/10 hover:bg-white/10' : 'bg-black/5 border-black/5 hover:bg-black/10'}`}>
                 <span className="text-blue-500">✦</span>
-                <span className={`text-xs uppercase tracking-widest font-bold ${isDarkMode ? 'text-white' : 'text-black'}`}>UI Technologist</span>
+                <span className={`text-xs uppercase tracking-widest font-bold ${isDarkMode ? 'text-white' : 'text-black'}`}>UI Designer</span>
               </div>
               <div className={`flex items-center gap-3 px-6 py-3 rounded-full transition-all border ${isDarkMode ? 'bg-white/5 border-white/10 hover:bg-white/10' : 'bg-black/5 border-black/5 hover:bg-black/10'}`}>
                 <span className="text-purple-500">✦</span>
-                <span className={`text-xs uppercase tracking-widest font-bold ${isDarkMode ? 'text-white' : 'text-black'}`}>Motion Director</span>
+                <span className={`text-xs uppercase tracking-widest font-bold ${isDarkMode ? 'text-white' : 'text-black'}`}>Design Technologist</span>
               </div>
             </div>
           </div>

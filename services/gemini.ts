@@ -11,7 +11,7 @@ export const generateCreativeInsight = async (prompt: string): Promise<string> =
       model: 'gemini-3-flash-preview',
       contents: prompt,
       config: {
-        systemInstruction: "You are a world-class design consultant named 'Aura'. You provide brief, poetic, and highly creative insights about design projects, aesthetics, and creative direction. Keep responses under 100 words.",
+        systemInstruction: "You are a world-class design consultant named 'Drew'. You provide brief, poetic, and highly creative insights about design projects, aesthetics, and creative direction. Keep responses under 100 words.",
         temperature: 0.9,
       }
     });
