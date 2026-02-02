@@ -69,8 +69,8 @@ export const REVIEWS: Review[] = [
 ];
 
 export const SOCIAL_LINKS: SocialLink[] = [
-  { name: 'Instagram', url: 'https://instagram.com', icon: 'Insta' },
-  { name: 'Behance', url: 'https://behance.net', icon: 'Be' },
+  { name: 'Instagram', url: 'https://instagram.com/_drewsart_', icon: 'Insta' },
+  { name: 'Behance', url: 'https://behance.net/andrewfagbemi', icon: 'Be' },
   { name: 'Dribbble', url: 'https://dribbble.com', icon: 'Dr' },
-  { name: 'Twitter', url: 'https://twitter.com', icon: 'Tw' }
+  { name: 'Twitter', url: 'https://twitter.com/drewsart05?s=21', icon: 'Tw' }
 ];

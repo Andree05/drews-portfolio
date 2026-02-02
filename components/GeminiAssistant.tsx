@@ -6,7 +6,7 @@ import { ChatMessage } from '../types';
 const GeminiAssistant: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState<ChatMessage[]>([
-    { role: 'assistant', content: "I am The Oyin. Drew's Art creative frequency is currently high. How can I help you visualize your next breakthrough?" }
+    { role: 'assistant', content: "I am Drew. Drew's Art creative frequency is currently high. How can I help you visualize your next breakthrough?" }
   ]);
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
@@ -81,7 +81,7 @@ const GeminiAssistant: React.FC = () => {
                 type="text"
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
-                placeholder="Ask The Muse for a spark..."
+                placeholder="Ask Drew for a spark..."
                 className="w-full bg-white/5 border border-white/10 rounded-full py-4 px-8 text-sm focus:outline-none focus:border-pink-500 transition-all placeholder:text-white/20 group-hover:bg-white/10"
               />
               <button 

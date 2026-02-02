@@ -48,10 +48,10 @@ const Contact: React.FC<ContactProps> = ({ isDarkMode = true }) => {
             <div className="relative group inline-block">
               <span className={`text-xs font-bold tracking-[0.4em] uppercase mb-4 block ${isDarkMode ? 'text-pink-500' : 'text-pink-600'}`}>Direct Line</span>
               <a 
-                href="mailto:drew@drews.art" 
+                href="mailto:drewsart05@gmail.com" 
                 className={`text-3xl md:text-5xl font-bold tracking-tighter transition-colors relative z-10 ${isDarkMode ? 'text-white hover:text-pink-400' : 'text-black hover:text-pink-600'}`}
               >
-                drew@drews.art
+                drewsart05@gmail.com
               </a>
               <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-pink-500 to-blue-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-700 origin-left" />
             </div>
