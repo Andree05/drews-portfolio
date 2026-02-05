@@ -55,7 +55,7 @@ const Hero: React.FC<HeroProps> = ({ isDarkMode = true }) => {
 
         <div className={`flex flex-col items-center transition-all duration-[1200ms] delay-500 transform ${mounted ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
           <p className={`text-xl md:text-3xl max-w-2xl leading-relaxed font-light mb-16 italic transition-colors ${isDarkMode ? 'text-white/70' : 'text-gray-600'}`}>
-            I'm <span className={`font-bold not-italic underline decoration-pink-500 underline-offset-8 transition-colors ${isDarkMode ? 'text-white' : 'text-black'}`}>Drew</span>, turning static pixels into <span className="text-blue-500">kinetic masterpieces</span> and brand stories.
+            I'm <span className={`font-bold not-italic underline decoration-pink-500 underline-offset-8 transition-colors ${isDarkMode ? 'text-white' : 'text-black'}`}>Andrew</span>, turning static pixels into <span className="text-blue-500">kinetic masterpieces</span> and brand stories.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-8">
